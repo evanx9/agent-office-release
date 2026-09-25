@@ -1,11 +1,11 @@
 # Agent Office
 
-**See and drive all your parallel Claude Code sessions at a glance — as a living ASCII office.**
+**See and drive all your parallel Claude Code sessions at a glance — as a living pixel-art office.**
 
-![Agent Office — the ASCII office scene](assets/screenshot.png)
+![Agent Office — the pixel office scene](assets/screenshot.png)
 
 Agent Office is a Windows desktop app that turns your running Claude Code
-sessions into workers at desks in an office scene. See what every agent is
+sessions into little robots at desks in a pixel-art office. See what every agent is
 doing, get pulled in the moment one needs approval, and spawn, answer, or jump
 to any session without hunting through terminal tabs.
 
@@ -28,6 +28,22 @@ until reputation builds — this is expected and goes away over time.
 
 ![Agent Office in action](assets/demo.gif)
 
+## New in 1.0
+
+- **A new pixel-art look.** Phosphor-lit robots in labelled rooms, and a
+  system theme that follows your Windows accent colour. Prefer the original
+  ASCII office? It's one setting away: Settings → **office look** → **ascii**.
+- **Watch teams work.** Subagents appear as small copies of their session's
+  robot and walk their results back. Sessions with a task list get a
+  whiteboard.
+- **Catch file clashes.** Two sessions editing the same file, even from
+  different git worktrees, get flagged on both desks with one notification.
+- **Spot stuck sessions.** A session re-running a failing command or going in
+  circles is marked `?! stuck`, and clears as soon as it moves again.
+- **Know what it costs.** A fleet total in the ticker (tokens/hour and
+  API-equivalent $/hour), today / yesterday / last 7 days, and on Pro/Max a
+  forecast of when your 5-hour window runs out.
+
 ## What it does
 
 - **Never miss an approval.** A session waiting on you surfaces a quick-reply
@@ -48,7 +64,8 @@ until reputation builds — this is expected and goes away over time.
 - **Reward good work.** Give a worker a "treat" — optionally saving the note to
   the project's CLAUDE.md so praise becomes a durable preference.
 - **Made to delight.** An office that feels alive: an ambient cat, day-night
-  ambience, seasonal visitors, themes, and CRT scanlines if you want them.
+  ambience, seasonal visitors, themes, and CRT scanlines if you want them. In
+  both the pixel and the ASCII office.
 
 ## Free
 
