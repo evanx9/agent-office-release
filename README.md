@@ -28,6 +28,21 @@ until reputation builds — this is expected and goes away over time.
 
 ![Agent Office in action](assets/demo.gif)
 
+## New in 1.1
+
+- **See background work.** When Claude starts a command in the background (a
+  dev server, a long build), a small terminal with a blinking cursor sits by
+  that desk until it finishes, so a session that looks idle but isn't is easy
+  to spot.
+- **A satellite dish for Remote Control.** Driving a session from claude.ai or
+  your phone with `/remote-control`? Its room gets a dish on the roof. Hover it
+  to see which session.
+- **Permission mode for every session.** The ticker now shows `auto`,
+  `acceptEdits`, `plan` or `default` for sessions you started in your own
+  terminal too, which explains a session that ran something without asking.
+- **Know what each helper is doing.** Hovering a subagent robot shows the task
+  it was given, not just its type.
+
 ## New in 1.0
 
 - **A new pixel-art look.** Phosphor-lit robots in labelled rooms, and a
