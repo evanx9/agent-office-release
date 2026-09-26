@@ -28,6 +28,17 @@ until reputation builds — this is expected and goes away over time.
 
 ![Agent Office in action](assets/demo.gif)
 
+## New in 1.2
+
+- **Paper airplanes between sessions.** When one session messages another,
+  even in a different repo, a paper airplane flies from the sender's room to
+  the receiver's, and the landing bubble says who it's from.
+- **Rooms tidy up after themselves.** A room widens for helper robots and task
+  boards, and now gives the space back: a minute after the last helper leaves,
+  and five minutes after a task list is finished, so you have time to read it.
+- **A pixel-art clock.** The top-right clock is drawn in the pixel font, with a
+  sunrise, sun, sunset or moon for the time of day.
+
 ## New in 1.1
 
 - **See background work.** When Claude starts a command in the background (a
