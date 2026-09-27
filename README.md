@@ -28,6 +28,25 @@ until reputation builds — this is expected and goes away over time.
 
 ![Agent Office in action](assets/demo.gif)
 
+## New in 1.3
+
+- **Office chatter.** Now and then a worker says something about what it's
+  doing in a speech bubble ("fingers crossed" while tests run, "brb, coffee"
+  during a compaction), and helper robots answer their lead. It's occasional,
+  never covers a "need you!", and costs no tokens: the lines are built in.
+  Settings → office → **office chatter** → **off** silences it.
+- **A bigger wardrobe.** New hats, from a hard hat and a cowboy hat to a crown
+  and a propeller beanie whose propeller spins. Helper robots wear a mini copy
+  of their lead's hat, so you can tell whose helpers are whose, and headphones
+  give off the odd music note.
+- **Rare robots.** About one worker in ten is a rainbow robot, and one in
+  twenty is a Cat Agent: a cat at the keyboard, too dignified for hats.
+- **And more.** The desk is longer, so the night lamp stands on it, and
+  Settings is split into office, sessions and data tabs.
+- **The ASCII office is deprecated.** It still works (Settings → office →
+  look), but new looks come to the pixel office only, and it will be removed
+  in a future release.
+
 ## New in 1.2
 
 - **Paper airplanes between sessions.** When one session messages another,
