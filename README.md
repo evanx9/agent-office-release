@@ -28,6 +28,16 @@ until reputation builds — this is expected and goes away over time.
 
 ![Agent Office in action](assets/demo.gif)
 
+## New in 1.3.1
+
+- **Drag the approval card.** The card that opens under a waiting session's
+  desk can be dragged by its title bar, and it stops at the edge of the office
+  so it can't get lost off-screen.
+- **Long speech bubbles wrap.** A long line, like a message from another
+  session, wraps to fit its room instead of running off the screen.
+- **Small fixes.** The scroll bar no longer cuts into the clock, and the
+  lead's ponytail hangs to the less crowded side of the desk.
+
 ## New in 1.3
 
 - **Office chatter.** Now and then a worker says something about what it's
@@ -93,7 +103,7 @@ until reputation builds — this is expected and goes away over time.
 
 - **Never miss an approval.** A session waiting on you surfaces a quick-reply
   right in the scene — approve, deny, or type a response, with a guard on
-  destructive commands.
+  destructive commands. Drag it aside if it's in the way.
 - **See every session at once.** Each Claude Code session becomes a worker;
   agents on the same repo share a labeled room. Watch them think, read, edit,
   run commands, or wait.
