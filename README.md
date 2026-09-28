@@ -28,6 +28,16 @@ until reputation builds — this is expected and goes away over time.
 
 ![Agent Office in action](assets/demo.gif)
 
+## New in 1.4.0
+
+- **Your robot stays your robot.** When you start a session from the app, the
+  robot that walks in (hat, colour, and a rare rainbow or Cat Agent) is the
+  one you keep. Before, it could turn into a different robot once the session
+  finished loading. It also keeps that look after you restart the app.
+- **Pixel art only.** The ASCII office is gone, along with the look switch in
+  Settings. If you had it selected, the app opens in pixel art and keeps the
+  rest of your settings. Every robot keeps the hat and colour it had before.
+
 ## New in 1.3.1
 
 - **Drag the approval card.** The card that opens under a waiting session's
@@ -53,9 +63,8 @@ until reputation builds — this is expected and goes away over time.
   twenty is a Cat Agent: a cat at the keyboard, too dignified for hats.
 - **And more.** The desk is longer, so the night lamp stands on it, and
   Settings is split into office, sessions and data tabs.
-- **The ASCII office is deprecated.** It still works (Settings → office →
-  look), but new looks come to the pixel office only, and it will be removed
-  in a future release.
+- **The ASCII office is deprecated.** New looks come to the pixel office only.
+  (It was removed in 1.4.0.)
 
 ## New in 1.2
 
@@ -86,8 +95,8 @@ until reputation builds — this is expected and goes away over time.
 ## New in 1.0
 
 - **A new pixel-art look.** Phosphor-lit robots in labelled rooms, and a
-  system theme that follows your Windows accent colour. Prefer the original
-  ASCII office? It's one setting away: Settings → **office look** → **ascii**.
+  system theme that follows your Windows accent colour. (The original ASCII
+  office stayed available as a setting until 1.4.0.)
 - **Watch teams work.** Subagents appear as small copies of their session's
   robot and walk their results back. Sessions with a task list get a
   whiteboard.
@@ -119,8 +128,7 @@ until reputation builds — this is expected and goes away over time.
 - **Reward good work.** Give a worker a "treat" — optionally saving the note to
   the project's CLAUDE.md so praise becomes a durable preference.
 - **Made to delight.** An office that feels alive: an ambient cat, day-night
-  ambience, seasonal visitors, themes, and CRT scanlines if you want them. In
-  both the pixel and the ASCII office.
+  ambience, seasonal visitors, themes, and CRT scanlines if you want them.
 
 ## Free
 
