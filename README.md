@@ -111,9 +111,24 @@ long as the session lives, including across app restarts.
 
 **Rare robots.** About one robot in ten comes out **rainbow**, and about one
 in twenty is a **Cat Agent**: a cat at the keyboard, too dignified for hats.
-Start a session and see who turns up.
+They talk like it, too: "hmm… teal? magenta?", "a box! I love boxes". Start
+a session and see who turns up.
 
 ![Helper robots wear a mini copy of their lead's hat](assets/helpers.gif)
+
+## New in 1.5.0
+
+- **See what's still running.** A session can finish its turn while helpers
+  or a background command keep working, and pick up again by itself when they
+  are done. An idle robot now says so, for example **"idle · 2 helpers
+  running"**. If it asks for your input while a background command still
+  runs, you'll see **"waiting for your input · 1 shell running"**, so you can
+  tell a pause from a real question.
+- **Rare robots have their own lines.** Rainbow robots and Cat Agents mix in
+  lines of their own about one time in three. A rainbow robot's helpers join
+  in.
+- **Drag a robot, its team comes along.** Moving a robot to a new spot takes
+  its helpers, the machine that builds them and its whiteboard with it.
 
 ## New in 1.4.0
 
