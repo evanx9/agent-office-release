@@ -116,6 +116,13 @@ a session and see who turns up.
 
 ![Helper robots wear a mini copy of their lead's hat](assets/helpers.gif)
 
+## New in 1.5.1
+
+- **Auto by default, "ask" when you want it.** Claude Code now starts new
+  sessions in auto mode, so the spawn dialog starts on **auto (default)**.
+  Pick **ask** and the session asks before it runs a command. Checked against
+  Claude Code 2.1.284.
+
 ## New in 1.5.0
 
 - **See what's still running.** A session can finish its turn while helpers
