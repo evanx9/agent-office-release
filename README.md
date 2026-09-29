@@ -116,6 +116,12 @@ a session and see who turns up.
 
 ![Helper robots wear a mini copy of their lead's hat](assets/helpers.gif)
 
+## New in 1.5.3
+
+- **Robots never overlap.** Drop a robot onto another and it moves to the
+  nearest free spot, with its helpers and whiteboard. The rest of the room
+  makes way, in every room and at any window size.
+
 ## New in 1.5.2
 
 - **Safer approvals for helpers' commands.** When a session's helper asks
