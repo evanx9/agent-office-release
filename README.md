@@ -116,6 +116,12 @@ a session and see who turns up.
 
 ![Helper robots wear a mini copy of their lead's hat](assets/helpers.gif)
 
+## New in 1.5.4
+
+- **Rooms stay apart too.** Drag a robot into another room and it stops at
+  that room's edge, so the room outlines never overlap. The rooms after it
+  move along to make space.
+
 ## New in 1.5.3
 
 - **Robots never overlap.** Drop a robot onto another and it moves to the
