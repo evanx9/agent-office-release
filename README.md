@@ -116,6 +116,14 @@ a session and see who turns up.
 
 ![Helper robots wear a mini copy of their lead's hat](assets/helpers.gif)
 
+## New in 1.5.2
+
+- **Safer approvals for helpers' commands.** When a session's helper asks
+  permission to run a command, the approval card now shows which one it is,
+  and a risky command (deleting files, a force push) needs the usual two
+  clicks. If the office can't tell which command a prompt is for, it plays
+  safe.
+
 ## New in 1.5.1
 
 - **Auto by default, "ask" when you want it.** Claude Code now starts new
