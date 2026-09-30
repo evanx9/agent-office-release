@@ -116,6 +116,21 @@ a session and see who turns up.
 
 ![Helper robots wear a mini copy of their lead's hat](assets/helpers.gif)
 
+## New in 1.6.0
+
+- **Queued messages on the desk.** Messages you type while a session is busy
+  show as small notes by its desk lamp until the turn picks them up.
+- **"Recap waiting" note.** When Claude Code has written a "while you were
+  away" recap, a sticky note appears on that desk's monitor.
+- **Helpers show their model.** Hover a helper robot to see which model it
+  runs on.
+- **Local weather, if you want it.** Turn it on in Settings and type a city,
+  and the office shows clouds, rain, snow, fog or wind. It is off by default,
+  and nothing is sent until you turn it on.
+- **Steadier terminal.** Resizing the window while Claude is writing no
+  longer leaves repeated lines, and clicking a session while it starts keeps
+  the terminal on it.
+
 ## New in 1.5.4
 
 - **Rooms stay apart too.** Drag a robot into another room and it stops at
