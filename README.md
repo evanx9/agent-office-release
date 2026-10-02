@@ -116,6 +116,17 @@ a session and see who turns up.
 
 ![Helper robots wear a mini copy of their lead's hat](assets/helpers.gif)
 
+## New in 1.6.1
+
+- **A steadier terminal.** Resizing the window, dragging the divider or
+  maximising no longer repeats or loses lines in the terminal's history,
+  whether the session is idle, an answer is arriving, or Claude is running a
+  tool.
+- **Banners stay out of the way.** Update and error banners lie over the
+  office scene and no longer change the terminal's size.
+- **The office scene keeps to its own area** when the terminal takes most of
+  the window.
+
 ## New in 1.6.0
 
 - **Queued messages on the desk.** Messages you type while a session is busy
