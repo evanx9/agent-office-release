@@ -116,6 +116,14 @@ a session and see who turns up.
 
 ![Helper robots wear a mini copy of their lead's hat](assets/helpers.gif)
 
+## New in 1.6.2
+
+- **A safer kill.** Killing a session while it asks for permission now
+  refuses the command instead of running it. Please update if you are on
+  1.6.1 or earlier.
+- **"Usage limit reset" no longer shows as waiting for you**, since Claude
+  carries on by itself.
+
 ## New in 1.6.1
 
 - **A steadier terminal.** Resizing the window, dragging the divider or
