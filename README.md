@@ -116,6 +116,23 @@ a session and see who turns up.
 
 ![Helper robots wear a mini copy of their lead's hat](assets/helpers.gif)
 
+## New in 1.7.0
+
+- **Weather in detail:** flurries to heavy snow, light to heavy rain,
+  freezing rain, blizzards and hail. Settings names the weather.
+- **Six new hats:** wizard, chef, top hat with monocle, sunglasses,
+  motorcycle helmet and a big twirly moustache.
+- **A badge for each model** on the robot's chest.
+- **Seasonal costumes** for seven holidays, starting with Halloween
+  (Oct 17-31): about half the robots dress up, one of each costume at a time.
+
+## New in 1.6.3
+
+- **Finished helpers no longer show as busy after a restart** on Claude Code
+  2.1.300 and later.
+- **The performance review counts your prompts again**, so it finds the
+  sessions you actually worked in.
+
 ## New in 1.6.2
 
 - **A safer kill.** Killing a session while it asks for permission now
