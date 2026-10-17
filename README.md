@@ -103,9 +103,20 @@ roof.
 
 Every session gets its own robot, with an accent colour and one item from the
 wardrobe: party hat, antenna, halo, pointy ears, top hat, headphones, hard hat,
-cowboy hat, flat-top, ponytail, propeller beanie (it spins), a crown, or
-nothing at all. The look comes from the session, so a robot keeps it for as
-long as the session lives, including across app restarts.
+cowboy hat, flat-top, ponytail, propeller beanie (it spins), a crown, a wizard
+hat, a chef's hat, a top hat with a monocle, sunglasses, a motorcycle helmet,
+a big twirly moustache, or nothing at all. The look comes from the session,
+so a robot keeps it for as long as the session lives, including across app
+restarts.
+
+![Seasonal costumes for seven holidays](assets/seasonal.gif)
+
+**Dressed for the season.** Around seven holidays (Valentine's, St
+Patrick's, Easter, Halloween, December, Lunar New Year and Diwali) about half
+the robots put on a costume instead of their everyday hat: a pumpkin head, a
+Santa hat, bunny ears, a dragon mask and more. Each costume appears at most
+once in the office at a time, and a robot keeps its costume for the whole
+session.
 
 ![Rare robots: the rainbow robot and the Cat Agent](assets/rare.gif)
 
@@ -114,7 +125,15 @@ in twenty is a **Cat Agent**: a cat at the keyboard, too dignified for hats.
 They talk like it, too: "hmm… teal? magenta?", "a box! I love boxes". Start
 a session and see who turns up.
 
+![Model badges: Fable, Opus, Sonnet and Haiku](assets/badges.gif)
+
+**A badge for each model** sits on the robot's chest: a "v" for Fable, two
+bars for Opus, a white middle bar for Sonnet and a dot for Haiku.
+
 ![Helper robots wear a mini copy of their lead's hat](assets/helpers.gif)
+
+Helpers wear a mini copy of their lead's hat, and the badge of the model they
+run on, which can differ from their lead's.
 
 ## New in 1.7.1
 
