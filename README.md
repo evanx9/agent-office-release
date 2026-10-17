@@ -120,10 +120,10 @@ session.
 
 ![Rare robots: the rainbow robot and the Cat Agent](assets/rare.gif)
 
-**Rare robots.** About one robot in ten comes out **rainbow**, and about one
-in twenty is a **Cat Agent**: a cat at the keyboard, too dignified for hats.
-They talk like it, too: "hmm… teal? magenta?", "a box! I love boxes". Start
-a session and see who turns up.
+**Rare robots.** About one robot in twenty comes out **rainbow**, and about
+one in thirty is a **Cat Agent**: a cat at the keyboard, too dignified for
+hats. They talk like it, too: "hmm… teal? magenta?", "a box! I love boxes".
+Start a session and see who turns up.
 
 ![Model badges: Fable, Opus, Sonnet and Haiku](assets/badges.gif)
 
