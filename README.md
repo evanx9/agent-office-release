@@ -116,6 +116,12 @@ a session and see who turns up.
 
 ![Helper robots wear a mini copy of their lead's hat](assets/helpers.gif)
 
+## New in 1.7.1
+
+- **Finished helpers walk back and leave again.** On Claude Code 2.1.285 and
+  later, many helpers stayed seated after finishing and vanished about 15
+  minutes later without walking back.
+
 ## New in 1.7.0
 
 - **Weather in detail:** flurries to heavy snow, light to heavy rain,
