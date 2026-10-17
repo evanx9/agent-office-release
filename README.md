@@ -119,8 +119,10 @@ a session and see who turns up.
 ## New in 1.7.1
 
 - **Finished helpers walk back and leave again.** On Claude Code 2.1.285 and
-  later, many helpers stayed seated after finishing and vanished about 15
-  minutes later without walking back.
+  later, a helper of a session in auto mode (the default) stayed seated after
+  handing back its report, and vanished about 15 minutes later without
+  walking back. It now walks back the moment its report arrives.
+- **Checked on Claude Code 2.1.302.**
 
 ## New in 1.7.0
 
