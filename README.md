@@ -118,12 +118,16 @@ Santa hat, bunny ears, a dragon mask and more. Each costume appears at most
 once in the office at a time, and a robot keeps its costume for the whole
 session.
 
-![Rare robots: the rainbow robot and the Cat Agent](assets/rare.gif)
+![Rare robots: the rainbow robot, the human and the Cat Agent](assets/rare.gif)
 
 **Rare robots.** About one robot in twenty comes out **rainbow**, and about
 one in thirty is a **Cat Agent**: a cat at the keyboard, too dignified for
 hats. They talk like it, too: "hmm… teal? magenta?", "a box! I love boxes".
-Start a session and see who turns up.
+
+**And one in twenty-five isn't a robot at all.** A **human** office worker
+sits among them, quietly baffled ("wait, are you all robots?", "is it 5pm
+yet?"). Its helpers are interns who beam in on a teleporter, name-tag
+stickers and all. Start a session and see who turns up.
 
 ![Model badges: Fable, Opus, Sonnet and Haiku](assets/badges.gif)
 
@@ -134,6 +138,14 @@ bars for Opus, a white middle bar for Sonnet and a dot for Haiku.
 
 Helpers wear a mini copy of their lead's hat, and the badge of the model they
 run on, which can differ from their lead's.
+
+## New in 1.7.2
+
+- **A human joins the office.** About one session in twenty-five is a human
+  office worker, with its own lines and interns who beam in on a teleporter.
+- **Rarer rare robots:** rainbow 5%, Cat Agent 3%. A few sessions change look.
+- **The Cat Agent has much more to say**, and says it more often.
+- **Diwali** has a sparkler.
 
 ## New in 1.7.1
 
