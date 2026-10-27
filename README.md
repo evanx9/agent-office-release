@@ -139,6 +139,16 @@ bars for Opus, a white middle bar for Sonnet and a dot for Haiku.
 Helpers wear a mini copy of their lead's hat, and the badge of the model they
 run on, which can differ from their lead's.
 
+## New in 1.7.3
+
+- **Long replies arrive whole again.** On Claude Code 2.1.311, a long reply
+  typed into the quick-reply box reached Claude as only its last 160
+  characters. Replies longer than that are now sent as a paste, which arrives
+  in full.
+- **Paper airplanes you can see:** white paper with a drop shadow, flying above
+  everything, and a little slower.
+- Signing in to Claude Code no longer makes a session read as waiting for you.
+
 ## New in 1.7.2
 
 - **A human joins the office.** About one session in twenty-five is a human
