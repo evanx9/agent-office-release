@@ -139,6 +139,24 @@ bars for Opus, a white middle bar for Sonnet and a dot for Haiku.
 Helpers wear a mini copy of their lead's hat, and the badge of the model they
 run on, which can differ from their lead's.
 
+## New in 1.8.0
+
+- **Give a worker its own worktree.** When the folder is a git repo, the spawn
+  dialog can start the session in a fresh git worktree on its own branch, so
+  parallel workers stop sharing one checkout. Unmerged work is never deleted.
+- **Rooms group by repo:** worktrees and subfolders of one repo share a room.
+- **Done-criteria on the whiteboard.** Pin a few lines saying what "done"
+  means for a session; they show as a DONE WHEN checklist, and "check against
+  done" asks the session to check its own work against them.
+- **A changes tab** beside the terminal lists the files a worker edited and
+  shows what changed in each, with a label when another session edited the
+  same file.
+- **No more orphaned sessions after a crash.** If Agent Office is
+  force-closed, the Claude sessions it was hosting now end with it instead of
+  running on unseen. A normal quit is faster too.
+- A first prompt is no longer left unsent when Claude Code is slow to start,
+  and long first prompts arrive in full.
+
 ## New in 1.7.3
 
 - **Long replies arrive whole again.** On Claude Code 2.1.311, a long reply
