@@ -143,6 +143,15 @@ bars for Opus, a white middle bar for Sonnet and a dot for Haiku.
 Helpers wear a mini copy of their lead's hat, and the badge of the model they
 run on, which can differ from their lead's.
 
+## New in 1.8.1
+
+- **A safer hook server.** Agent Office now refuses hook messages that don't
+  come from the sessions it launched, including anything a web page sends.
+  Before, a page open in your browser could make a session's robot look busy,
+  idle or waiting for you.
+- **The installer is the recommended download**: it starts fast and tells you
+  when an update is out.
+
 ## New in 1.8.0
 
 - **Give a worker its own worktree.** When the folder is a git repo, the spawn
