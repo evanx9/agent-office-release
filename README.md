@@ -16,9 +16,13 @@ It rides your existing Claude subscription — sessions run through the real
 
 **[⬇ Download the latest release](https://github.com/evanx9/agent-office-release/releases/latest)**
 
-- **Portable (recommended):** grab `agent-office-<version>-portable.exe` and run
-  it — no installer.
-- **Installer:** `agent-office-<version>-setup.exe` (per-user, one click).
+- **Installer (recommended):** `agent-office-<version>-setup.exe` (per-user,
+  one click, no admin). It starts in under a second (0.3–0.9 s to app-ready on
+  1.7.3 and 1.8.0), and it is the only build that tells you when an update is
+  out.
+- **Portable:** `agent-office-<version>-portable.exe` runs without installing,
+  but it unpacks itself on every launch (several seconds, more with antivirus
+  scanning), and it never checks for updates, so you re-download it by hand.
 
 Builds are code-signed (publisher **Evan Wee**). As a new publisher, Windows
 SmartScreen may still show a "More info → Run anyway" prompt on early downloads
