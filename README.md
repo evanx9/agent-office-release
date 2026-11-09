@@ -4,7 +4,7 @@
 
 ![Agent Office — the pixel office scene](assets/screenshot.png)
 
-Agent Office is a Windows desktop app that turns your running Claude Code
+Agent Office is a desktop app for Windows and macOS that turns your running Claude Code
 sessions into little robots at desks in a pixel-art office. See what every agent is
 doing, get pulled in the moment one needs approval, and spawn, answer, or jump
 to any session without hunting through terminal tabs.
@@ -27,6 +27,21 @@ It rides your existing Claude subscription — sessions run through the real
 Builds are code-signed (publisher **Evan Wee**). As a new publisher, Windows
 SmartScreen may still show a "More info → Run anyway" prompt on early downloads
 until reputation builds — this is expected and goes away over time.
+
+### macOS
+
+There is no download for the Mac. Install from npm in a terminal, then start it:
+
+```sh
+npm i -g @evanx9/agent-office
+agent-office
+```
+
+You need Node.js 18 or later and Claude Code, installed and signed in. The
+first start downloads Electron once (about 100 MB). macOS shows no Gatekeeper
+prompt, because files npm installs carry no quarantine flag. The app tells you
+when an update is out; on a Homebrew Node, **update now** reinstalls it and
+restarts the app. Details: [the npm page](https://www.npmjs.com/package/@evanx9/agent-office).
 
 ## Watch the office come alive
 
@@ -145,10 +160,9 @@ run on, which can differ from their lead's.
 
 ## New in 1.9.0
 
-- **Agent Office is coming to macOS.** 1.9.0 is the first release with a Mac
+- **Agent Office runs on macOS.** 1.9.0 is the first release with a Mac
   version. It installs from npm (`npm i -g @evanx9/agent-office`) and updates
-  itself from the app's banner. **The npm package is coming shortly; it is not
-  published yet.**
+  itself from the app's banner.
 - **Windows:** one small fix to the quota forecast's status-line command, with
   no visible change.
 
