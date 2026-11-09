@@ -43,6 +43,9 @@ prompt, because files npm installs carry no quarantine flag. The app tells you
 when an update is out; on a Homebrew Node, **update now** reinstalls it and
 restarts the app. Details: [the npm page](https://www.npmjs.com/package/@evanx9/agent-office).
 
+The Dock, menu bar and Cmd-Tab show **Agent Office**, with its own icon. Keep
+in Dock and Open at Login work, and the pinned icon survives updates.
+
 ## Watch the office come alive
 
 Agent Office isn't a dashboard of rows and percentages. Every session is a
@@ -157,6 +160,22 @@ bars for Opus, a white middle bar for Sonnet and a dot for Haiku.
 
 Helpers wear a mini copy of their lead's hat, and the badge of the model they
 run on, which can differ from their lead's.
+
+## New in 1.9.1
+
+- **Mac users: update now.** In 1.9.0 installed from npm, starting a session
+  from the app failed with "terminal host stopped". 1.9.1 fixes that. Update
+  from the banner, or run `npm i -g @evanx9/agent-office@latest`.
+- **A proper Mac app.** The Dock, menu bar and Cmd-Tab say Agent Office, the
+  About box shows the app's version, and Keep in Dock and Open at Login work.
+- **Take over a Terminal session.** A `claude` you started in Terminal can be
+  adopted into the app and carry on in the same conversation, and "Focus
+  terminal window" brings Terminal to the front on the right tab. The first
+  time, macOS may ask to let Agent Office control Terminal.
+- **Closing the terminal you started `agent-office` from quits cleanly**, like
+  Cmd-Q.
+- **Windows:** "Focus terminal window" says why when it can't, and a small
+  quota-forecast fix on a brand-new profile.
 
 ## New in 1.9.0
 
@@ -420,15 +439,19 @@ reviews) alike. No licence key, account or sign-up.
 
 ## Requirements
 
-- **Windows 10 (1809 / build 17763) or Windows 11, 64-bit.**
+- **Windows 10 (1809 / build 17763) or Windows 11, 64-bit**, or **macOS** (Apple
+  silicon or Intel) with **Node.js 18 or later**, installed through npm (see
+  [macOS](#macos) above).
 - **[Claude Code](https://claude.com/claude-code) installed and signed in**, with
   `claude` on your `PATH`. Agent Office is a dashboard *over* your existing
   sessions — it never touches the Anthropic API.
-- *Optional:* [PowerShell 7](https://learn.microsoft.com/powershell/) for a
-  nicer embedded terminal (falls back to the Windows PowerShell you already have).
+- *Optional, Windows:* [PowerShell 7](https://learn.microsoft.com/powershell/)
+  for a nicer embedded terminal (falls back to the Windows PowerShell you already
+  have). On macOS the embedded terminal uses your login shell.
 
 ---
 
-*Agent Office is a Windows-native app in the spirit of Claude Code's "Claude
-Buddy" easter egg. Binaries are published here; the source is maintained
-privately.*
+*Agent Office is a desktop app for Windows and macOS in the spirit of Claude
+Code's "Claude Buddy" easter egg. Windows binaries are published here, and the
+macOS build on [npm](https://www.npmjs.com/package/@evanx9/agent-office); the
+source is maintained privately.*
