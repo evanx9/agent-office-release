@@ -143,6 +143,15 @@ bars for Opus, a white middle bar for Sonnet and a dot for Haiku.
 Helpers wear a mini copy of their lead's hat, and the badge of the model they
 run on, which can differ from their lead's.
 
+## New in 1.9.0
+
+- **Agent Office is coming to macOS.** 1.9.0 is the first release with a Mac
+  version. It installs from npm (`npm i -g @evanx9/agent-office`) and updates
+  itself from the app's banner. **The npm package is coming shortly; it is not
+  published yet.**
+- **Windows:** one small fix to the quota forecast's status-line command, with
+  no visible change.
+
 ## New in 1.8.1
 
 - **A safer hook server.** Agent Office now refuses hook messages that don't
